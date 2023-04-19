@@ -1,0 +1,260 @@
+/* ********** Mis Variables ********** */
+
+:root{
+    --first-color:rgb(249, 250, 251);
+    --first-alpha-color:rgba(248, 249, 250, 0.6);
+
+    --second-color:rgb(52, 131, 250);
+    --second-alpha-color:rgb(23, 92, 196);
+
+    --link-color:rgb(80,158,227);
+    --link-alpha-color:rgba(80,158,227,0.7);
+
+    --bg-color: rgb(37, 36, 34);
+    --bg-alpha-color: rgba(37, 36, 34, 0.867);
+}
+
+/* ********** Reset Stilos ********** */
+
+/* ********** Bootstrap Stilos ********** */
+
+/* ********** Mis Stilos ********** */
+
+body{
+    background-color: #fafafa;
+    position: relative;
+}
+
+.logo{
+    font-size: 35px;
+    color: var(--second-color);
+}
+
+.logo:hover{
+    color: var(--second-color);
+}
+
+.color-footer{
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+.contenedor-carrito{
+    min-height: calc(100vh - 246px);
+}
+
+.contenedor-productos-elegidos{
+    width: 100%;
+}
+
+.contenedor-compra{
+    width: 70%;
+}
+
+.mini-img{
+    height: 45px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.numero-de-productos{
+    width: 30px;
+}
+
+.compra-resumen{
+    width: 100%;
+}
+
+.ancho{
+    width: 20rem;
+}
+
+.btn-finalizar-compra{
+    text-decoration: none;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    outline: none;
+    background-color: #000;
+    color: #d2d2d2;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.btn-finalizar-compra2{
+    width: 60%;
+    padding: 5px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: #000;
+    color: #d2d2d2;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.link-mas-products{
+    margin-left: 15px;
+    color: var(--second-color);
+}
+
+.link-mas-products:hover{
+    color: var(--second-alpha-color);
+}
+
+.btn-finalizar-compra:hover{
+    color: #fff;
+}
+
+.btn-finalizar-compra2:hover{
+    color: #fff;
+}
+
+.texto-total{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.boton-carrito-vacio{
+    text-decoration: none;
+    background-color: #000;
+    padding: 15px 20px;
+    border-radius: 25px;
+    color: #d2d2d2;
+}
+
+.boton-carrito-vacio:hover{
+    color: #fff;
+}
+
+.invisible{
+    display: none;
+}
+
+.contenedor-mensaje{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #33333399;
+}
+
+.mensaje{
+    background-color: var(--first-color);
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.afirmar-compra{
+    position: absolute;
+    background-color: var(--first-color);
+    width: 50%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.mensaje p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.mensaje button{
+    margin: 0 10px;
+    background-color: #000;
+    border: none;
+    font-size: 18px;
+    color: #d2d2d2;
+    width: 130px;
+    padding: 5px 0;
+    border-radius: 20px;
+}
+
+.mensajeBody{
+    overflow-y: hidden;
+}
+
+.mensaje button:hover{
+    color: #fff;
+}
+
+.contenedor-categoria{
+    width: 100%;
+}
+
+.categoria{
+    width: 70%;
+}
+
+.eliminar-producto-carrito{
+    background-color: transparent;
+    border: none;
+    color: #c35;
+    padding: 5px 10px;
+}
+
+.titulo-link{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.carita{
+    font-size: 60px;
+    color: var(--second-color);
+}
+
+.afirmar-compra p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.afirmar-compra .cerrar{
+    border: none;
+    padding: 5px 20px;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 992px){
+    .mobil-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-ul-redes ul,.navegacion ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .bg-dark nav,.navegacion{
+        text-align: center;
+    }
+
+    .bg-dark nav ul,.navegacion ul{
+        padding: 0;
+    }
+
+    .bg-color{
+        background-color: var(--first-alpha-color);
+        width: 100%;
+        height: 10rem;
+    }
+
+}
+    

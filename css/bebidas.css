@@ -1,0 +1,129 @@
+/* ********** Mis Variables ********** */
+
+:root{
+    --first-color:rgb(249, 250, 251);
+    --first-alpha-color:rgba(248, 249, 250, 0.6);
+
+    --second-color:rgb(52, 131, 250);
+    --second-alpha-color:rgb(23, 92, 196);
+
+    --link-color:rgb(80,158,227);
+    --link-alpha-color:rgba(80,158,227,0.7);
+
+    --bg-color: rgb(37, 36, 34);
+    --bg-alpha-color: rgba(37, 36, 34, 0.867);
+}
+
+/* ********** Reset Stilos ********** */
+body{
+    background-color: #ebebeb;
+}
+
+a{
+    color: var(--link-color);
+    transition: color .3s ease-out;
+}
+
+a:hover{
+    color: var(--first-color);
+}
+
+/* ********** Bootstrap Stilos ********** */
+.bg-dark{
+    background-color: var(--bg-color) !important;
+}
+
+.dropdown-item{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.dropdown-item:hover{
+    background-color: var(--second-color);
+    color: var(--first-color);
+    transition: background-color .3s ease-out, color .3s ease-out;
+}
+
+.navbar-dark{
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2852,131,250%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.nav-link{
+    color: var(--second-color);
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    color: var(--first-color);
+    transition: color .3s ease-out;
+}
+
+
+/* ********** Mis Stilos ********** */
+.bg-color{
+    background-color: var(--first-alpha-color);
+    width: 60%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedo-footer{
+    color: var(--second-color);
+}
+
+.contenedor-footer-nav-redes ul{
+    list-style: none;
+}
+
+.contenedor-footer-nav-redes ul a{
+    text-decoration: none;
+}
+
+.contenedor-ul-redes ul li a i, .navegacion ul li a i{
+    width: 30px;
+    margin-right: 15px;
+}
+
+.link-pagos{
+    color: var(--second-color);
+    text-decoration: none;
+}
+
+.link-pagos:hover{
+    color: var(--second-alpha-color);
+    
+}
+
+@media screen and (max-width: 992px){
+    .mobil-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contenedor-ul-redes ul,.navegacion ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .bg-dark nav,.navegacion{
+        text-align: center;
+    }
+
+    .bg-dark nav ul,.navegacion ul{
+        padding: 0;
+    }
+
+    .bg-color{
+        background-color: var(--first-alpha-color);
+        width: 100%;
+        height: 10rem;
+    }
+
+}
+    

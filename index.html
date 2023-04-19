@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Logo</a>
+            <a class="nav-link p-2 ms-auto order-lg-1 ms-lg-4" aria-current="page" href="paginas/carrito.html"><i
+                    class="bi bi-bag"></i><span class="ms-1 numero-carrito">0</span></a>
+            <button class="navbar-toggler ms-3 border-0" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Cervezas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Vinos
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Whiskies
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="paginas/bebidas.html">Bebidas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="paginas/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_699879-MLA54480141930_032023-OO.webp" class="d-block w-100 carrusel" alt="img 1">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_863369-MLA54510572409_032023-OO.webp" class="d-block w-100 carrusel" alt="img 2">
+                </div>
+                <div class="carousel-item" data-bs-interval="10000">
+                    <img src="https://http2.mlstatic.com/D_NQ_NP_634915-MLA54128387866_032023-OO.webp" class="d-block w-100 carrusel" alt="img 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <div class="metodos-de-pago container d-flex my-5">
+            <div class="bg-light col-12 d-flex p-4 justify-content-center col-lg-4 d-lg-flex align-items-lg-center p-lg-4">
+                <a href="#" class="me-lg-4 me-4"><img src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/payments/credit-card.svg" alt="icono"></a>
+                <div>
+                    <h5>Tarjeta de crédito</h5>
+                    <a class="link-pagos" href="#">Ver promociones bancarias</a>
+                </div>
+            </div>
+            <div class="d-none bg-light col-lg-4 d-lg-flex align-items-lg-center p-lg-4">
+                <a href="#" class="me-lg-4"><img src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/payments/debit-card.svg" alt="icono"></a>
+                <div>
+                    <h5>Tarjeta de débito</h5>
+                    <a class="link-pagos" href="#">Ver más</a>
+                </div>
+            </div>
+            <div class="d-none bg-light col-lg-4 d-lg-flex align-items-lg-center p-lg-4">
+                <a href="#" class="me-lg-4"><img src="https://http2.mlstatic.com/storage/homes-korriban/assets/images/payments/payment-agreement.svg" alt="icono"></a>
+                <div>
+                    <h5>Tarjeta de crédito</h5>
+                    <a class="link-pagos" href="#">Ver más</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center align-items-center mb-5"><h2>Productos Destacados</h2></div>
+            <div class="contenedor-de-productos d-flex flex-wrap justify-content-center align-items-center"></div>
+            <div class="img-banner my-5">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_699679-MLA54405545996_032023-OO.webp">
+            </div>
+            <div class="contenedor-de-productos-2 d-flex flex-wrap justify-content-center align-items-center"></div>
+        </div>
+    </main>
+
+    <footer class="bg-dark mt-5">
+        <div class="container text-white mobil-footer pt-5">
+            <div class="contenedo-footer row">
+                <div class="contenedor-footer-nav-redes col-lg-6 d-lg-flex justify-content-lg-between">
+                    <nav>
+                        <h2 class="mb-3">Redes sociales</h2>
+                        <div class="contenedor-ul-redes">
+                            <ul>
+                                <li class="mx-3 my-3"><a href="https://facebook.com" target="_blank"><i
+                                            class="bi bi-facebook"></i>Facebook</a></li>
+                                <li class="mx-3 my-3"><a href="https://instagram.com" target="_blank"><i
+                                            class="bi bi-instagram"></i>Instagram</a></li>
+                                <li class="mx-3 my-3"><a href="https://twitter.com" target="_blank"><i
+                                            class="bi bi-twitter"></i>Twitter</a></li>
+                                <li class="mx-3 my-3"><a href="https://whatsapp.com" target="_blank"><i
+                                            class="bi bi-whatsapp"></i>Whatsapp</a></li>
+                                <li class="mx-3 my-3"><a href="https://messenger.com" target="_blank"><i
+                                            class="bi bi-messenger"></i>Messenger</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <div class="navegacion">
+                        <h2>Navegacion</h2>
+                        <ul>
+                            <li class="mx-3 my-3"><a href="#"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                            <li class="mx-3 my-3"><a href="#"><i
+                                        class="fa-sharp fa-solid fa-beer-mug-empty"></i>Cervezas</a></li>
+                            <li class="mx-3 my-3"><a href="#"><i class="fa-solid fa-wine-glass"></i>Vinos</a></li>
+                            <li class="mx-3 my-3"><a href="#"><i class="fa-solid fa-whiskey-glass"></i>Whiskies</a></li>
+                            <li class="mx-3 my-3"><a href="#"><i
+                                        class="fa-solid fa-martini-glass-citrus"></i>Bebidas</a></li>
+                            <li class="mx-3 my-3"><a href="paginas/contacto.html"><i class="fa-solid fa-people-group"></i>Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-logo col-lg-6 d-lg-flex justify-content-lg-center align-items-lg-center">
+                    <div class="bg-color text-white">
+                        <h2>Logo</h2>
+                    </div>
+                </div>
+            </div>
+            <small class="d-flex justify-content-center text-white text-center border-top">&copy;2023 @andymonzon. Hecho
+                con fines educativos.</small>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/92ec81e9db.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>

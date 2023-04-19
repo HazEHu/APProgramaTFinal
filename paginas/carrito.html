@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+</head>
+
+<body>
+
+    <nav id="arriba" class="navbar border-bottom border-1 border-secondary-subtle">
+        <div class="container d-flex justify-content-center">
+            <a class="navbar-brand logo" href="../index.html">Logo</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            
+            <div class="contenedor-carrito">
+                <div class="text-center my-5 border-bottom border-1 border-secondary-subtle">
+                    <h2 class="pb-3">CARRITO DE COMPRAS</h2>
+                </div>
+                <div class="contenedor-carrito-vacio">
+                    <h2 class="mb-5">SU CARRITO ESTA VACIO</h2>
+                    <a href="../index.html" class="boton-carrito-vacio">ELEGIR PRODUCTOS</a>
+                </div>
+                <div class="contenedor-categoria d-flex justify-content-center align-items-center invisible">
+                    <div class="row categoria mb-3">
+                        <div class="col-6">
+                            <small>PRODUCTO</small>
+                        </div>
+                        <div class="col-2 text-center">
+                            <small>CANTIDAD</small>
+                        </div>
+                        <div class="col-2 text-center">
+                            <small>PRECIO</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenedor-productos-elegidos invisible d-flex justify-content-center align-items-center flex-column">
+        
+                    
+                </div>
+
+                <div class="compra-resumen invisible p-4 border-top border-1 border-secondary-subtle mt-5">
+                        <p>RESUMEN DE LA COMPRA</p>
+                        <div class="d-flex ancho texto-total">
+                            <p>TOTAL:</p>
+                            <span class="ms-auto precio-total">$0</span>
+                        </div>
+                        <div class="ancho mt-3">
+                            <a href="#" class="link-mas-products">Elegir más productos</a>
+                            <a type="button"  class="btn-finalizar-compra">FINALIZAR COMPRA</a>
+                            <button class="btn-finalizar-compra2">ELIMINAR PRODUCTOS</button>
+                        </div>
+                </div>
+
+                <div class="contenedor-mensaje invisible">
+                    <div class="mensaje">
+                        <p>ESTA SEGURO QUE DESEA FINALIZAR LA COMPRA?</p>
+                        <div>
+                            <button class="afirmar">Si</button>
+                            <button class="negar">No</button>
+                        </div>
+                    </div>
+                    <div class="afirmar-compra invisible">
+                        <p>GRACIAS POR TU COMPRA</p>
+                        <span class="carita"><i class="bi bi-emoji-laughing"></i></span>
+                        <button class="cerrar"><i class="bi bi-x-lg"></i></button>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+    </main>
+
+    <footer class="border-top border-1 border-secondary-subtle mt-auto">
+        <div class="container mobil-footer pb-4 pt-4">
+            <small class="d-flex justify-content-center text-center color-footer">&copy;2023 @andymonzon. Hecho
+                con fines educativos.</small>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/92ec81e9db.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="../js/carrito.js" type="module"></script>
+</body>
+
+</html>
